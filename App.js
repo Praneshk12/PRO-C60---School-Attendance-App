@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
-import HomeScreen from './screens/HomeScreen';
+import HomeScreen from './HomeScreen';
 import SummaryScreen from './screens/SummaryScreen';
-import AppHeader from './components/AppHeader';
+import AppHeader from './AppHeader';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 
 export default class App extends React.Component {
